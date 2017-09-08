@@ -42,22 +42,54 @@ nav span{
   padding: 20px 10px;
 }
 
+/* Tea of the Month */
+
+.month{
+  display: flex;
+  width: 1000px;
+}
+
+.text{
+  text-align: center;
+}
+
 /* Locations */
 
 .locations{
-  background-image: url("resources/images/img-locations-background.jpg");
+  background-image: url("/Users/angelachristian/teacozy/resources/images/img-locations-background.jpg");
   display: flex;
   height: 500px;
   width: 1200px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h2{
+  display: block;
+  text-align: center;
+}
+
+
+.address{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
 }
 
 .downtown,
 .bayside,
 .oakdale{
+  height: 300px;
   width: 300px;
-  height 300px;
-  aligh
+  background-color: black;
 }
+.downtown,
+.bayside{
+  margin-right: 40px;
+}
+
 
 /* Contact Information */
 
