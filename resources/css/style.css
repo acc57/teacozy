@@ -47,12 +47,17 @@ nav span{
 .month{
   display: flex;
   width: 1000px;
+  height: 700px;
 }
 
 .text{
   text-align: center;
 }
-
+/* Main */
+.main{
+  opacity: .9;
+  margin: auto;
+}
 /* Locations */
 
 .locations{
@@ -62,12 +67,15 @@ nav span{
   width: 1200px;
   justify-content: center;
   align-items: center;
-
+  flex-direction: column;
 }
 
 h2{
   display: block;
-  text-align: center;
+}
+
+.locations h2{
+  margin-bottom: 15px;
 }
 
 
