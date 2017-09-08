@@ -9,9 +9,16 @@ body{
 
 /* Header */
 
+
+.$0{
+  padding: 0;
+}
 .header{
   display: flex;
   flex-wrap: wrap;
+}
+
+header{
   align-items: center;
   position: fixed;
   height: 69px;
@@ -25,13 +32,12 @@ img{
   margin-left: 10px;
 }
 
-.nav{
-justify-content: flex-end;
+nav{
+
 }
 
 span{
   text-decoration: underline;
-  display: inline-flex;
   padding: 20px 10px;
   text-align: right;
 }
