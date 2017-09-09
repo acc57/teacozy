@@ -42,22 +42,44 @@ nav span{
   padding: 20px 10px;
 }
 
+/* Main */
+.main{
+  opacity: .9;
+  margin: auto;
+}
+
 /* Tea of the Month */
 
 .month{
   display: flex;
   width: 1000px;
   height: 700px;
+  flex-direction: column;
 }
 
 .text{
   text-align: center;
 }
-/* Main */
-.main{
-  opacity: .9;
-  margin: auto;
+
+.items{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
+
+.item img{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.item p{
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+
 /* Locations */
 
 .locations{
