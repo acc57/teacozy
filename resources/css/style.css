@@ -6,6 +6,7 @@ body{
   font-size: 22px;
   color: seashell;
   margin: 0;
+
 }
 
 /* Header */
@@ -46,6 +47,9 @@ nav span{
 .main{
   opacity: .9;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Mission */
@@ -59,6 +63,7 @@ nav span{
   align-items: center;
   position: relative;
   top: 70px;
+  left: 90px;
 }
 
 .ourmission{
@@ -67,10 +72,15 @@ nav span{
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .ourmission h2{
   margin-bottom: 0;
+}
+
+.ourmission h4{
+  margin: ;
 }
 
 /* Tea of the Month */
@@ -80,10 +90,13 @@ nav span{
   width: 1000px;
   height: 700px;
   flex-direction: column;
+  position: relative;
+  left: 190px;
 }
 
 .text{
   text-align: center;
+  margin-top: 75px;
 }
 
 .items{
@@ -115,6 +128,9 @@ nav span{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 75px;
+  position: relative;
+  left: 90px;
 }
 
 h2{
