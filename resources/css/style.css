@@ -22,6 +22,7 @@ header{
   border-bottom: 1px solid seashell;
   width: 100%;
   z-index: 1;
+  background-color: black;
 }
 
 .logo{
@@ -38,7 +39,6 @@ text-align: right;
 }
 
 nav span{
-  text-decoration: underline;
   padding: 20px 10px;
 }
 
@@ -46,6 +46,31 @@ nav span{
 .main{
   opacity: .9;
   margin: auto;
+}
+
+/* Mission */
+
+.mission{
+  background-image: url("/Users/angelachristian/teacozy/resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 70px;
+}
+
+.ourmission{
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ourmission h2{
+  margin-bottom: 0;
 }
 
 /* Tea of the Month */
